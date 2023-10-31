@@ -154,6 +154,17 @@
             "name": "PC",
             "bindingGroup": "PC",
             "devices": []
+        },
+        {
+            "name": "PlayerAction",
+            "bindingGroup": "PlayerAction",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
         }
     ]
 }

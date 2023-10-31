@@ -24,6 +24,8 @@ public class PlayerCtrl : MonoBehaviour
             //회전한 후 전진 방향으로 이동
             transform.Translate(Vector3.forward * Time.deltaTime * 4.0f);
         }
+
+        
     }
 
     void OnMove(InputValue value)
