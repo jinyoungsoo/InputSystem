@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerCtrl : MonoBehaviour
 {
-    
     private Animator anim;
     private new Transform transform;
     private Vector3 moveDir;
